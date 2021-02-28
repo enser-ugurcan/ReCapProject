@@ -58,3 +58,10 @@ D:\c#\ReCapProject\ConsoleUI\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni
 D:\c#\ReCapProject\ConsoleUI\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 D:\c#\ReCapProject\ConsoleUI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 D:\c#\ReCapProject\ConsoleUI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\c#\ReCapProject\ConsoleUI\bin\Debug\netcoreapp3.1\Core.dll
+D:\c#\ReCapProject\ConsoleUI\bin\Debug\netcoreapp3.1\Core.pdb
+D:\c#\ReCapProject\ConsoleUI\bin\Debug\netcoreapp3.1\Autofac.dll
+D:\c#\ReCapProject\ConsoleUI\bin\Debug\netcoreapp3.1\Autofac.Extras.DynamicProxy.dll
+D:\c#\ReCapProject\ConsoleUI\bin\Debug\netcoreapp3.1\Castle.Core.dll
+D:\c#\ReCapProject\ConsoleUI\bin\Debug\netcoreapp3.1\FluentValidation.dll
+D:\c#\ReCapProject\ConsoleUI\bin\Debug\netcoreapp3.1\Autofac.Extensions.DependencyInjection.dll

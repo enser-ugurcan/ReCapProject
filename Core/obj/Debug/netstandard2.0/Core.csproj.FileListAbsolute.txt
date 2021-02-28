@@ -1,0 +1,9 @@
+D:\c#\ReCapProject\Core\bin\Debug\netstandard2.0\Core.deps.json
+D:\c#\ReCapProject\Core\bin\Debug\netstandard2.0\Core.dll
+D:\c#\ReCapProject\Core\bin\Debug\netstandard2.0\Core.pdb
+D:\c#\ReCapProject\Core\obj\Debug\netstandard2.0\Core.AssemblyInfoInputs.cache
+D:\c#\ReCapProject\Core\obj\Debug\netstandard2.0\Core.AssemblyInfo.cs
+D:\c#\ReCapProject\Core\obj\Debug\netstandard2.0\Core.csproj.CoreCompileInputs.cache
+D:\c#\ReCapProject\Core\obj\Debug\netstandard2.0\Core.dll
+D:\c#\ReCapProject\Core\obj\Debug\netstandard2.0\Core.pdb
+D:\c#\ReCapProject\Core\obj\Debug\netstandard2.0\Core.csprojAssemblyReference.cache

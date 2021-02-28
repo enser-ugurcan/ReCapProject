@@ -11,25 +11,33 @@ namespace ConsoleUI
         static void Main(string[] args)
         {
             CarManager carManager = new CarManager(new EfCarDal());
+            ColorManager colorManager = new ColorManager(new EfColorDal());
+            BrandManager brandManager = new BrandManager(new EfBrandDal());
 
-            Car car = new Car
+            UserManager userManager = new UserManager(new EfUserDal());
+            CustomerManager customerManager = new CustomerManager(new EfCustomerDal());
+            RentalManager rentalManager = new RentalManager(new EfRentalDal());
+            //userManager.Add(new User { Id = 7, FirstName = "Beyaz", LastName = "Ateşçakmak", Email = "etescakmak@hotmil.com", Password = "123456" });
+            // customerManager.Add(new Customer { Id = 6, UserId = 4, CompanyName = "EUA" });
+            //rentalManager.Delete(new Rental { Id = 6, CarId = 1, CustomerId = 3, RentDate = DateTime.Now, ReturnDate =new DateTime(2021,02,25,22,20,10) });
+            //Console.WriteLine(rentalManager.Add(new Rental { CarId = 1, CustomerId = 1, RentDate = new DateTime(2021, 2, 25) }).Message);
+            var result = rentalManager.GetAll();
+            if (result.Success)
             {
-                Id = 2,
-                BrandId=2,
-                ColorId=2,
-                DailyPrice=200,
-                ModelYear=2021,
-                Description="TDI 2.0 Motor"
-            };
-            carManager.Add(car);
-
-            foreach (var cars in carManager.GetAll())
-            {
-                Console.WriteLine(cars.Description);
+                Console.WriteLine(result.Success);
+                foreach (var rentall in result.Data)
+                {
+                    Console.WriteLine(rentall.Id);
+                }
             }
-
-
+            else
+            {
+                Console.WriteLine(result.Message);
+            }
             
+
+
         }
     }
 }
+
